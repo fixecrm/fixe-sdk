@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@fixe-sdk/wallet-google": ["packages/wallet/google/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
