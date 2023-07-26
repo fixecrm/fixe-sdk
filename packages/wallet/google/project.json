@@ -20,11 +20,8 @@
         "push": true,
         "noVerify": true,
         "postTargets": ["semver:publish", "semver:github"],
-        "commitMessageFormat": "release(${projectName}): 🎸 cut release to ${version}"
-      }
-    },
-    "publish": {
-      "command": "node tools/scripts/publish.mjs wallet-google {args.ver} {args.tag}",
+        "commitMessageFormat": "release(${projectName}): release ${version}"
+      },
       "dependsOn": ["build"]
     },
     "lint": {
