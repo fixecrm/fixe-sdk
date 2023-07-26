@@ -1,6 +1,6 @@
 {
   "name": "@fixe-sdk/wallet-google",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "type": "commonjs",
   "private": false,
   "repository": {
