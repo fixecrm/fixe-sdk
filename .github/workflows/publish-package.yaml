@@ -3,6 +3,8 @@ name: Publish Package to npmjs
 on:
   - workflow_dispatch
 
+permissions: {}
+
 jobs:
   build:
     runs-on: ubuntu-latest
