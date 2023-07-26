@@ -9,7 +9,6 @@
     "directory": "packages/wallet/google"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com",
     "access": "public"
   }
 }
